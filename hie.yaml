@@ -4,3 +4,5 @@ cradle:
       component: 'bowling-score-calculator:exe:bowling-score-calculator'
     - path: './src/Bowling.hs'
       component: 'bowling-score-calculator:exe:bowling-score-calculator'
+    - path: './src/Utils.hs'
+      component: 'bowling-score-calculator:exe:bowling-score-calculator'

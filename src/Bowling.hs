@@ -1,6 +1,6 @@
-module Bowling ( scoreCard ) where
+module Bowling (scoreCard) where
 
-import Data.List
+import Data.List (intercalate)
 
 -- | Get a bowling match's score card representations.
 -- A bowling match consists in a list for number of pins that were knocked down
