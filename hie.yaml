@@ -1,4 +1,6 @@
 cradle:
   stack:
-    - path: "./src/Main.hs"
-      component: "bowling-score-calculator:exe:bowling-score-calculator"
+    - path: './src/Main.hs'
+      component: 'bowling-score-calculator:exe:bowling-score-calculator'
+    - path: './src/Bowling.hs'
+      component: 'bowling-score-calculator:exe:bowling-score-calculator'
