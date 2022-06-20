@@ -1,9 +1,10 @@
 module Main where
 
-import Bowling (scoreCard)
+import Bowling
 import Utils (parseList)
 
 main :: IO ()
 main = do
   line <- getLine
-  putStrLn $ scoreCard $ parseList line
+  let pins = parseList line
+  putStrLn $ Bowling.scoreCard pins ++ " | " ++ show (Bowling.finalScore pins)
