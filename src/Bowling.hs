@@ -15,6 +15,7 @@ framesScore (play1 : play2 : plays@(next : _))
   | otherwise = currSum : framesScore plays
   where
     currSum = play1 + play2
+framesScore [play1, play2] = [play1 + play2]
 framesScore (play : plays) = play : framesScore plays
 framesScore [] = []
 
