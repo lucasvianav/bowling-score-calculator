@@ -40,6 +40,6 @@ jobs:
       - name: run test cases and check output
         uses: GuillaumeFalourd/test-cli-commands-action@v1
         with:
-          command_line: ./.github/run-test-cases.sh
+          command_line: make all
           contains: ERR!
           expected_result: FAILED
